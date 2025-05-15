@@ -36,9 +36,9 @@ AI Hub에서 제공하는 차량 이미지 데이터셋을 기반으로, **Convo
 - [ ] 성능 평가 및 테스트  
 - [ ] 결과 리포트 및 발표 자료 작성
 
-```bash
-### 📁 프로젝트 파일 구조
 
+### 📁 프로젝트 파일 구조
+```bash
 vehicle-cnn-project/
 │
 ├── prepare_dataset.ipynb       # 클래스별 2000장 균형 데이터셋 구성 (샘플링 및 증강 포함)
@@ -52,13 +52,12 @@ vehicle-cnn-project/
     ├── train.py                # CNN 모델 학습 코드
     ├── evaluate.py             # 모델 평가 및 성능 측정
     └── inference.py            # 테스트 이미지 예측용 스크립트
-
+```
 
 ### 실행 방법
 
 ```bash
 # Jupyter Notebook 실행 후 아래 노트북 파일 실행
 prepare_dataset.ipynb
-
-
+```
 
